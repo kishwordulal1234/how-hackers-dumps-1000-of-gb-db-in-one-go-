@@ -11,6 +11,31 @@
 
 ---
 
+
+# tool links 
+
+
+https://github.com/ytisf/PyExfil
+
+https://github.com/benstew/awesome-data-exfiltration?tab=readme-ov-file
+
+https://github.com/TryCatchHCF/PacketWhisper
+
+https://github.com/TryCatchHCF/Cloakify
+
+https://github.com/JoelGMSec/Invoke-DNSteal
+
+https://github.com/mmgordon82/DNSExfil 
+
+https://github.com/ImKKingshuk/StealthNewSQL
+
+https://github.com/m57/dnsteal
+
+https://github.com/projectdiscovery/interactsh?tab=readme-ov-file
+
+
+
+
 ## Step-by-Step Attack Chain
 
 ### Phase 1: Extract Database Credentials via SQLi
